@@ -64,3 +64,161 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container{
+	 margin: 30px  80px;
+	 
+}
+	 
+
+nav li{
+	display:flex;
+justify-content: space-evenly;
+}
+ nav {
+	 display:flex;
+	 margin-bottom: 50px;
+ }
+ nav ul{
+margin-right:90px;
+
+ }
+ button{
+	padding:2px 30px;
+	background:white;
+	border:1px solid black;
+	font-size: 15px;
+
+ }
+ 
+ .index-header {
+	 display:flex;
+	 font-size:70px;
+	 justify-content: space-around;
+	 border-bottom: 3px solid black;
+	 padding-bottom: 30px;
+	 margin-bottom:50px;
+	 text-align:center;
+ }
+ .top{
+	 display:flex;
+ }
+ .top-left ,  .top-right{
+	 display:flex;
+	 flex-direction:column;
+	 width:40%;
+	justify-content: flex-start;
+	 
+
+	 
+ }
+ .main-bottom{
+	 display:flex;
+ }
+ .middle-img{
+	 width:100%;
+	 margin-top:30px;
+	 margin-bottom:30px;
+ }
+
+ .main{
+	 display:flex;
+	 border-bottom: 3px solid rgba(0, 0, 0, 0);
+	 padding-bottom:50px;
+	 margin-bottom:50px;
+	 flex-wrap:wrap;
+ }
+
+ footer{
+	 text-align:center;
+	 margin-top:20px;
+
+ }
+
+ .main-bottom{
+	 display:flex;
+	 border-bottom:2px solid black;
+	 padding-bottom:30px;
+ }
+
+ .bottom-left, .bottom-middle, .bottom-right{
+	 display:flex;
+	 flex-direction: column;
+ }
+
+ /*services*/
+
+ .service-container{
+ 
+	margin:50px 180px;
+ }
+ .service-header{
+	 border-bottom:2px solid black;
+	 padding-bottom:50px;
+	 margin-bottom:50px;
+	 text-align:justify;
+	
+ }
+
+ .services-header-img{
+	 width:100%;
+	 margin:20px;
+ }
+
+.services-main{
+	display:flex;
+	 border-bottom: 3px solid black;
+	 padding-bottom:50px;
+	 margin-bottom:50px;
+	flex-wrap: wrap;
+	 align-items: space-between;
+	 justify-content: space-between;
+	 width:100%;
+	 
+
+}
+
+.all-boxes{
+	border: 1px solid black;
+background:whitesmoke;
+padding:20px;
+margin:20px 0px 20px; 
+justify-content: flex-start;
+align-content: center;
+flex-wrap:wrap;
+width:430px;
+
+
+}
+
+
+.service-bottom{
+	display:flex;
+	text-align: justify;
+	justify-content: space-around;
+	margin:auto;
+	
+
+}
+
+.service-bottom-left ul {
+list-style-type: square;
+}
+.service-bottom-left{
+	margin-right:50px;
+
+}
+
+.section-footer{
+	text-align:center;
+}
+.button-services{
+border-radius: 8px;	
+padding:2px 30px;
+	background:white;
+	border:1px solid black;
+	font-size: 15px;
+}
+.services-h1{
+	font-size:25px;
+}
